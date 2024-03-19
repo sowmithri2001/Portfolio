@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import Typed from "react-typed";
+import { Typewriter } from "react-simple-typewriter";
+
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 
@@ -49,8 +50,22 @@ const Hero = () => {
             exit="hidden"
             whileInView="visible"
           >
-            a <Typed {...typedOptions} loop className="text-[#ff0132]" />
-            <br className="sm:block hidden" />
+            a{" "}
+            <Typewriter
+              words={[
+                " Software Engineer.",
+                " Developer.",
+                " Leader.",
+                "artist",
+              ]}
+              loop
+              cursor
+              cursorStyle="|"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
+              className="sm:block hidden"
+            />
           </motion.p>
           <div className="mt-4 text-secondary text-[17px] max-w-xl leading-[30px]">
             Exploring the binary world with zeal, I'm a Front-End React
