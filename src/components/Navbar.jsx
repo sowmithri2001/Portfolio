@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import { Link } from "react-router-dom";
-import Sowmithri from "../assets/Sowmithri.pdf";
+import pdf from "../assets/tech/Sowmithri.pdf";
 
 // assets
 import { logo, menu, close } from "../assets";
@@ -68,7 +68,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href={Sowmithri}
+              href={pdf}
               download
               className="text-gray-200 bg-gray-700 hover:text-white hover:bg-gray-600 px-3 py-2 rounded-md text-sm font-medium"
             >
@@ -129,7 +129,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href={Sowmithri}
+                href={pdf}
                 download
                 className="bg-gray-700 w-fit m-auto text-white hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >

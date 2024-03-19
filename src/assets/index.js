@@ -52,10 +52,8 @@ import food from './food.png'
 import Aakriti from './Aakriti.png'
 import Envision from './Envision.png'
 import CloudE from './CloudE.png'
-// import Sowmithri from './Sowmithri.pdf'
 
 export {
-  // Sowmithri,
   CloudE,
   Envision,
   Aakriti,
